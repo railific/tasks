@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :tags
+
+  resources :projects
+
+  resources :contexts
+
+  resources :tasks
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
